@@ -1,0 +1,52 @@
+/* Import Nunito font */
+
+@font-face{
+    font-family: "Nunito-Regular";
+    src: url("Nunito-Regular.ttf");
+}
+
+* {
+    font-family: Nunito-Regular;
+}
+
+body {
+    color: #f4f4f4;
+}
+
+
+header {
+    color: #67c5eb;
+    text-align: center;
+}
+
+.content {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#illus {
+    display: flex;
+    justify-content: center;
+}
+
+#illus img {
+    width: 60%;
+}
+
+.text-line {
+    color: #67c5eb;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #67c5eb;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
